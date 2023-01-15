@@ -1,0 +1,58 @@
+
+.start{
+    border: 2px rgb(1, 15, 45) solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 8px;
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(36, 1, 68);
+    position: fixed;
+    margin: -32.5px 0px;
+}
+.editlogo{
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+    padding: auto;
+}
+.logo{
+    display: flex;
+    box-sizing: content-box;
+    flex-direction: row;
+    padding-left: 200px;
+    align-items: flex-end;  
+      width: 100px;
+}
+.Links{
+    position: relative;
+}
+.list{
+    list-style-type: none;
+}
+.slink{
+    text-decoration: none;
+    color: beige;
+}
+.w2e{
+height: 80px;
+}
+.open{
+    z-index: -1;
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+    padding: auto;
+    margin: 4px 5px;
+    cursor: pointer;
+}
+.hover{
+    cursor: pointer;
+}
+
+.hover:hover{
+    border: 1.9px black  solid;
+    color: red;
+}
+.open:hover{
+    color: lightgreen;
+}
